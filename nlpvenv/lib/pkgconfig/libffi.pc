@@ -1,0 +1,11 @@
+prefix=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

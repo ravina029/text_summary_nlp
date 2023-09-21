@@ -1,0 +1,13 @@
+prefix=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv
+exec_prefix=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv
+libdir=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv/lib
+sharedlibdir=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv/lib
+includedir=/Users/ravina/Desktop/nlp_text_summarization/nlpvenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
